@@ -26,6 +26,26 @@
 
 #endif
 
+#if defined(__linux__)
+
+
+	#include <glm/glm.hpp>
+	#include <GL/glew.h>
+
+	#include <SDL2/SDL.h>
+	#include <SDL2/SDL_opengl.h>
+//	#include <SDL2_image/SDL_image.h>
+//	#include <SDL2_net/SDL_net.h>
+//	#include <SDL2_mixer/SDL_mixer.h>
+//	#include <SDL2_ttf/SDL_ttf.h>
+
+	#include <GL/gl.h>
+	#include <GL/glu.h>
+
+	#include <unistd.h>
+
+#endif
+
 #include <iostream>
 using namespace std;
 
